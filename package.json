@@ -1,0 +1,40 @@
+{
+  "name": "testing-console-output-in-nodejs",
+  "version": "1.0.0",
+  "description": "Trick to test the console output in NodeJS",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha-logger": "^1.0.6",
+    "mocha-sinon": "^2.1.0",
+    "proxyquire": "^2.1.3",
+    "sinon": "^7.5.0"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyfr59/test-console-output-in-nodejs.git"
+  },
+  "standard": {
+    "env": [ "mocha" ]
+  },
+  "keywords": [
+    "nodejs",
+    "mocha",
+    "tests"
+  ],
+  "author": "Franck Dupont",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kyfr59/test-console-output-in-nodejs/issues"
+  },
+  "homepage": "https://github.com/kyfr59/test-console-output-in-nodejs#readme"
+}
