@@ -14,7 +14,7 @@
     "sinon": "^7.5.0"
   },
   "devDependencies": {
-    "mocha": "^6.2.0"
+    "mocha": "^10.2.0"
   },
   "scripts": {
     "test": "mocha"
